@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Showcase() {
   return (
     <section className="showcase"id="showcase">
@@ -15,7 +16,7 @@ export default function Showcase() {
               scenic harbors, and calming coastal sunsets — a perfect retreat
               for travelers seeking tranquility.
             </p>
-            <a href="/about" className="btn btn-secondary">More</a>
+            <Link to="/about" className="btn btn-secondary">More</Link>
           </div>
         </div>
 
@@ -30,7 +31,7 @@ export default function Showcase() {
               Explore the golden sands, ancient wonders, and unforgettable
               desert landscapes that have inspired explorers for centuries.
             </p>
-            <a href="/about" className="btn btn-secondary">More</a>
+          <Link to="/about" className="btn btn-secondary">More</Link>
           </div>
         </div>
 
