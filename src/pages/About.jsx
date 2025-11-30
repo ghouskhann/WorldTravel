@@ -1,3 +1,5 @@
+
+import { Link } from "react-router-dom";
 export default function About() {
   return (
     <section className="about">
@@ -65,7 +67,9 @@ export default function About() {
             </p>
           </div>
           <div className="cta-banner-right">
-            <a href="/contact" className="btn-cta">Contact Us</a>
+           <Link to="/contact" className="btn-cta">
+  Contact Us
+</Link>
           </div>
         </div>
 
